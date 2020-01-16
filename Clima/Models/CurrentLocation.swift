@@ -28,7 +28,7 @@ class LocationFetcher: NSObject, CLLocationManagerDelegate {
         locationManager.startUpdatingLocation()
     }
     
-    func start() {
+    func startLocating() {
         locationManager.startUpdatingLocation()
         
     }
